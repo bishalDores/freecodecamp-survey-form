@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #00405c;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    margin-top: 40px;
+    margin-bottom: 13px;
+}
+
+.form-headline p {
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.main-form {
+    background: #fff;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 690px;
+
+}
+
+#survey-form {
+    padding: 20px 0;
+}
+
+.custom-input {
+    height: 32px;
+    border-radius: 3px;
+    border: 1px solid #d0d0d0;
+    padding: 4px;
+    display: inline-block;
+    width: 47%;
+}
+
+.custom-input-select {
+    height: 41px;
+    border-radius: 3px;
+    border: 1px solid #d0d0d0;
+    padding: 4px;
+    display: inline-block;
+    width: 49%;
+}
+
+.form-group {
+    padding: 12px;
+}
+
+.input-label {
+    display: inline-block;
+    width: 21%;
+    vertical-align: middle;
+}
+
+/*
+.custom-radio{
+    display: inline-block;
+    
+    width: 100px;
+   
+    position: absolute;
+    left: 357px;
+}*/
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    text-align: start;
+    position: relative;
+    right: 219px;
+}
+
+.custom-input-comments {
+    min-height: 32px;
+    border-radius: 3px;
+    border: 1px solid #d0d0d0;
+    padding: 4px;
+    display: inline-block;
+    width: 47%;
+}
+
+#comments {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.custom-button {
+    padding: 12px 37px;
+    background-color: #00405c;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+}
